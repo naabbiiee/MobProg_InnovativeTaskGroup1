@@ -65,6 +65,8 @@ flutter:
     - assets/naval/mama.png
     - assets/naval/papa.png
     - assets/naval/ate.png
+    - assets/ong/mother.png
+    - assets/ong/myself.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
