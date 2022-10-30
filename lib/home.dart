@@ -5,12 +5,8 @@ import 'package:innovativetaskgroupone/memberTab/tabbracho.dart';
 import 'package:innovativetaskgroupone/memberTab/tabcanete.dart';
 import 'package:innovativetaskgroupone/memberTab/tabdagondon.dart';
 import 'package:innovativetaskgroupone/memberTab/tablosbanos.dart';
-<<<<<<< HEAD
 import 'package:innovativetaskgroupone/memberTab/tabmosqueda.dart';
-=======
 import 'package:innovativetaskgroupone/memberTab/tabong.dart';
->>>>>>> 2782228c70a19db8ab0935c06a3fbb675cd1d1fe
-
 import 'memberTab/tabnaval.dart';
 
 class Home extends StatefulWidget {
@@ -41,7 +37,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
             icon: Image.asset('assets/general_assets/Creative.png'),
             iconSize: 40,
             onPressed: () => exit(0),
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
           ),
         ],
         title: const ListTile(
