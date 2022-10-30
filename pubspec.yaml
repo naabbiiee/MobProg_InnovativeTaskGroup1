@@ -67,10 +67,21 @@ flutter:
     - assets/naval/ate.png
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - assets/canete/johnray.jpg
     - assets/canete/merlin.jpg
     - assets/canete/noprofile.jpg
 =======
+=======
+    - assets/bacala/ate.jpg
+    - assets/bacala/kuya.jpg
+    - assets/bacala/mama.jpg
+    - assets/bacala/manghud.jpg
+    - assets/bacala/papa.jpg
+    - assets/bacala/mica.jpg
+=======
+<<<<<<< HEAD
+>>>>>>> 17d0586e1ad1c9589b0131bacddca1bf847d81ef
     - assets/losbanos/1.jpg
     - assets/losbanos/2.jpg
     - assets/losbanos/3.jpg
@@ -84,6 +95,7 @@ flutter:
     - assets/ong/mother.png
     - assets/ong/myself.png
 >>>>>>> ada957090927a36aa517dcf4269b87c1db0c65ee
+>>>>>>> 2271d7e827a1c9b8b7c337b020c3007f399193c4
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
