@@ -16,30 +16,37 @@ class _TabBrachoState extends State<TabBracho> {
 
   List<Person> listbracho = [
     Person(
-        leading: 'assets/naval/naval.jpg',
-        name: 'Ma. Roscel N. Sebaria',
-        relationship: 'Mother',
-        occupation: 'House Wife',
-        birthdate: 'September 24, 1979',
-        age: 42
-
-    ),
-    Person(
-        leading: 'assets/naval/naval.jpg',
-        name: 'Joel B. Sebaria',
+        leading: 'assets/bracho/papa.jpg',
+        name: 'Joel C. Bracho',
         relationship: 'Father',
-        occupation: 'Driver',
-        birthdate: 'October 9, 1979',
-        age: 42
+        occupation: 'Freelancer',
+        birthdate: 'February 24, 1975',
+        age: 47
+
     ),
     Person(
-        leading: 'assets/naval/naval.jpg',
-        name: 'Princess Johanna Naval',
-        relationship: 'Sister',
-        occupation: 'Teacher',
-        birthdate: 'October 9, 1979',
-        age: 23
-
+        leading: 'assets/bracho/mama.jpg',
+        name: 'Ruby Z. Bracho',
+        relationship: 'Mother',
+        occupation: 'Freelancer',
+        birthdate: 'June 3, 1975',
+        age: 47
+    ),
+    Person(
+        leading: 'assets/bracho/wawa.jpg',
+        name: 'Joshua Ryle Z. Bracho',
+        relationship: 'Son',
+        occupation: 'Student',
+        birthdate: 'November 21, 2000',
+        age: 21
+    ),
+    Person(
+        leading: 'assets/bracho/sister.jpg',
+        name: 'Sheniah Zacky Raine Niese',
+        relationship: 'Step Sister',
+        occupation: 'Student',
+        birthdate: 'December 16, 2009',
+        age: 13
     )
   ];
 
@@ -54,17 +61,16 @@ class _TabBrachoState extends State<TabBracho> {
               child: ListTile(
                 leading: CircleAvatar(
                   radius: 20,
-                  backgroundImage: AssetImage(bracho.leading.toString()),
+                  backgroundImage: AssetImage(bracho.leading),
                 ),
-                title: Text(bracho.name.toString()),
-                subtitle: Text(bracho.relationship.toString()),
+                title: Text(bracho.name),
+                subtitle: Text(bracho.relationship),
                 onTap: () {
                   Navigator.push(
                     context, SlideLeft(page: Profile(details: bracho)),
                   );
                 }
               ),
-
             );
     },
     )

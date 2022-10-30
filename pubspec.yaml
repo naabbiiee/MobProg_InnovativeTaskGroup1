@@ -31,6 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  footer:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -61,10 +62,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/general_assets/Creative.png
+    - assets/general_assets/goggles.png
     - assets/naval/ate.png
     - assets/naval/mama.png
     - assets/naval/papa.png
     - assets/naval/ate.png
+    - assets/bracho/mama.jpg
+    - assets/bracho/papa.jpg
+    - assets/bracho/sister.jpg
+    - assets/bracho/wawa.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
