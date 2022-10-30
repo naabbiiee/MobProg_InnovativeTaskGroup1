@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:innovativetaskgroupone/memberTab/tabbracho.dart';
 import 'package:innovativetaskgroupone/memberTab/tablosbanos.dart';
+import 'package:innovativetaskgroupone/memberTab/tabong.dart';
 
 import 'memberTab/tabnaval.dart';
 
@@ -64,7 +65,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
           TabLosBanos(),
           TabNaval(),
           TabNaval(),
-          TabNaval()
+          TabOng()
         ],
       ),
     );
