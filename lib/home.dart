@@ -47,7 +47,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
             radius: 25,
             backgroundImage: AssetImage('assets/general_assets/goggles.png'),
           ),
-          title: Text("I N N O V A T I V E  -  T A S K 01",
+          title: Text("Innovative Task 01",
             style: TextStyle(color: Colors.white,
             fontWeight: FontWeight.bold),
           ),
