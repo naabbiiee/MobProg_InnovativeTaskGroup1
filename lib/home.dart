@@ -5,7 +5,11 @@ import 'package:innovativetaskgroupone/memberTab/tabbracho.dart';
 import 'package:innovativetaskgroupone/memberTab/tabcanete.dart';
 import 'package:innovativetaskgroupone/memberTab/tabdagondon.dart';
 import 'package:innovativetaskgroupone/memberTab/tablosbanos.dart';
+<<<<<<< HEAD
+import 'package:innovativetaskgroupone/memberTab/tabmosqueda.dart';
+=======
 import 'package:innovativetaskgroupone/memberTab/tabong.dart';
+>>>>>>> 2782228c70a19db8ab0935c06a3fbb675cd1d1fe
 
 import 'memberTab/tabnaval.dart';
 
@@ -78,7 +82,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
           TabCanete(),
           TabDagondon(),
           TabLosBanos(),
-          TabNaval(),
+          TabMosqueda(),
           TabNaval(),
           TabOng()
         ],

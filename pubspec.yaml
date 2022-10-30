@@ -62,6 +62,19 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - assets/mosqueda/angelo.jpg
+    - assets/mosqueda/daddy.jpg
+    - assets/mosqueda/jai.jpg
+    - assets/mosqueda/lyka.jpg
+    - assets/mosqueda/mama.jpg
+    - assets/mosqueda/princess.jpg
+    - assets/mosqueda/rhimer.jpg
+=======
+>>>>>>> 873de2f840f01907d5bbcf1ac20172a82213dcf7
     - assets/naval/main.png
     - assets/naval/1_Me.png
     - assets/naval/2_Mama.png
@@ -71,9 +84,29 @@ flutter:
     - assets/naval/6_Alick.png
     - assets/naval/7_DanDan.png
 
+<<<<<<< HEAD
     - assets/general_assets/Creative.png
     - assets/general_assets/goggles.png
 
+=======
+>>>>>>> 841446defaf53bcd27064e3c57854253c7bdaea0
+=======
+    - assets/general_assets/Creative.png
+    - assets/general_assets/goggles.png
+
+>>>>>>> 2782228c70a19db8ab0935c06a3fbb675cd1d1fe
+    - assets/naval/ate.png
+    - assets/naval/mama.png
+    - assets/naval/papa.png
+    - assets/naval/ate.png
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 91bf22afafb4e33c63221bf575ff96fba149141a
+>>>>>>> 873de2f840f01907d5bbcf1ac20172a82213dcf7
     - assets/bracho/mama.jpg
     - assets/bracho/papa.jpg
     - assets/bracho/sister.jpg
@@ -105,6 +138,7 @@ flutter:
 
     - assets/ong/mother.png
     - assets/ong/myself.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
