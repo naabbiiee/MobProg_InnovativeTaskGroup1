@@ -13,6 +13,7 @@ class TabNaval extends StatefulWidget {
 }
 
 class _TabNavalState extends State<TabNaval> {
+
   List<Person> listnaval = [
     Person(
         leading: 'assets/naval/mama.png',

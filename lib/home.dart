@@ -1,7 +1,10 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:innovativetaskgroupone/memberTab/tabbacala.dart';
 import 'package:innovativetaskgroupone/memberTab/tabbracho.dart';
+import 'package:innovativetaskgroupone/memberTab/tabcanete.dart';
 import 'package:innovativetaskgroupone/memberTab/tablosbanos.dart';
+import 'package:innovativetaskgroupone/memberTab/tabong.dart';
 
 import 'memberTab/tabnaval.dart';
 
@@ -69,14 +72,14 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
       body: TabBarView(
         controller: tabController,
         children: const [
-          TabNaval(),
+          TabBacala(),
           TabBracho(),
-          TabNaval(),
+          TabCanete(),
           TabNaval(),
           TabLosBanos(),
           TabNaval(),
           TabNaval(),
-          TabNaval()
+          TabOng()
         ],
       ),
     );
