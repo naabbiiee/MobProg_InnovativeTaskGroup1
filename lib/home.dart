@@ -1,6 +1,11 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:innovativetaskgroupone/memberTab/tabbacala.dart';
 import 'package:innovativetaskgroupone/memberTab/tabbracho.dart';
+import 'package:innovativetaskgroupone/memberTab/tabcanete.dart';
+import 'package:innovativetaskgroupone/memberTab/tabdagondon.dart';
 import 'package:innovativetaskgroupone/memberTab/tablosbanos.dart';
+import 'package:innovativetaskgroupone/memberTab/tabong.dart';
 
 import 'memberTab/tabnaval.dart';
 
@@ -27,13 +32,24 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const ListTile(
-          leading: CircleAvatar(
-            radius: 20,
-            backgroundImage: AssetImage('assets/naval/mama.png'),
+        actions: [
+          IconButton(
+            icon: Image.asset('assets/general_assets/Creative.png'),
+            iconSize: 40,
+            onPressed: () => exit(0),
+            padding: EdgeInsets.all(10),
           ),
-          title: Text("Innovative Task 1",
-            style: TextStyle(color: Colors.white),
+        ],
+        title: const ListTile(
+          contentPadding: EdgeInsets.all(0),
+          minVerticalPadding: 20,
+          leading: CircleAvatar(
+            radius: 25,
+            backgroundImage: AssetImage('assets/general_assets/goggles.png'),
+          ),
+          title: Text("I N N O V A T I V E  -  T A S K 01",
+            style: TextStyle(color: Colors.white,
+            fontWeight: FontWeight.bold),
           ),
           subtitle: Text("Group 1",
             style: TextStyle(color: Colors.white),),
@@ -57,14 +73,14 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
       body: TabBarView(
         controller: tabController,
         children: const [
-          TabNaval(),
+          TabBacala(),
           TabBracho(),
-          TabNaval(),
-          TabNaval(),
+          TabCanete(),
+          TabDagondon(),
           TabLosBanos(),
           TabNaval(),
           TabNaval(),
-          TabNaval()
+          TabOng()
         ],
       ),
     );
